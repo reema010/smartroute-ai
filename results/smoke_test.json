@@ -1,0 +1,163 @@
+{
+  "mock": false,
+  "calls": [
+    {
+      "tier": "small",
+      "id": "smoke1",
+      "latency_s": 1.065745899999456,
+      "usage": {
+        "completion_tokens": 52,
+        "prompt_tokens": 553,
+        "total_tokens": 605,
+        "completion_time": 0.07377224,
+        "completion_tokens_details": {
+          "reasoning_tokens": 5
+        },
+        "prompt_time": 0.052395041,
+        "prompt_tokens_details": null,
+        "queue_time": 0.485675949,
+        "total_time": 0.126167281,
+        "_attempts": 1
+      },
+      "parsed": {
+        "intent": "payment_failed",
+        "urgency": "normal",
+        "fields": {
+          "reference_id": "ORD-48213",
+          "amount": "250 SAR"
+        },
+        "confidence": 0.95
+      },
+      "issues": [],
+      "expected_intent": "payment_failed",
+      "format_failure": false
+    },
+    {
+      "tier": "small",
+      "id": "smoke2",
+      "latency_s": 0.5030264999986684,
+      "usage": {
+        "completion_tokens": 96,
+        "prompt_tokens": 553,
+        "total_tokens": 649,
+        "completion_time": 0.103838782,
+        "completion_tokens_details": {
+          "reasoning_tokens": 49
+        },
+        "prompt_time": 0.029959395,
+        "prompt_tokens_details": null,
+        "queue_time": 0.242065476,
+        "total_time": 0.133798177,
+        "_attempts": 1
+      },
+      "parsed": {
+        "intent": "payment_failed",
+        "urgency": "high",
+        "fields": {
+          "reference_id": "ORD-55012",
+          "amount": "90 SAR"
+        },
+        "confidence": 0.95
+      },
+      "issues": [],
+      "expected_intent": "payment_failed",
+      "format_failure": false
+    },
+    {
+      "tier": "large",
+      "id": "smoke1",
+      "latency_s": 0.6811926000009407,
+      "usage": {
+        "completion_tokens": 101,
+        "prompt_tokens": 553,
+        "total_tokens": 654,
+        "completion_time": 0.212669805,
+        "completion_tokens_details": {
+          "reasoning_tokens": 34
+        },
+        "prompt_time": 0.025734436,
+        "prompt_tokens_details": null,
+        "queue_time": 0.380070959,
+        "total_time": 0.238404241,
+        "_attempts": 1
+      },
+      "parsed": {
+        "intent": "payment_failed",
+        "urgency": "normal",
+        "fields": {
+          "reference_id": "ORD-48213",
+          "amount": "250 SAR"
+        },
+        "confidence": 0.99
+      },
+      "issues": [],
+      "expected_intent": "payment_failed",
+      "format_failure": false
+    },
+    {
+      "tier": "large",
+      "id": "smoke2",
+      "latency_s": 0.6467078999994555,
+      "usage": {
+        "completion_tokens": 87,
+        "prompt_tokens": 553,
+        "total_tokens": 640,
+        "completion_time": 0.180468473,
+        "completion_tokens_details": {
+          "reasoning_tokens": 40
+        },
+        "prompt_time": 0.026895804,
+        "prompt_tokens_details": null,
+        "queue_time": 0.312197711,
+        "total_time": 0.207364277,
+        "_attempts": 1
+      },
+      "parsed": {
+        "intent": "payment_failed",
+        "urgency": "high",
+        "fields": {
+          "reference_id": "ORD-55012",
+          "amount": "90 SAR"
+        },
+        "confidence": 1.0
+      },
+      "issues": [],
+      "expected_intent": "payment_failed",
+      "format_failure": false
+    }
+  ],
+  "settings": {
+    "models": {
+      "small": "openai/gpt-oss-20b",
+      "large": "openai/gpt-oss-120b"
+    },
+    "reasoning_effort": {
+      "small": "low",
+      "large": "low"
+    },
+    "response_format": "json_schema",
+    "max_completion_tokens": 1000,
+    "rate_limits": {
+      "rpm": 30,
+      "tpm": 8000
+    }
+  },
+  "rate_limit_headers": {
+    "small": {
+      "x-ratelimit-limit-requests": "1000",
+      "x-ratelimit-limit-tokens": "8000",
+      "x-ratelimit-remaining-requests": "997",
+      "x-ratelimit-remaining-tokens": "6468",
+      "x-ratelimit-reset-requests": "4m19.2s",
+      "x-ratelimit-reset-tokens": "11.49s"
+    },
+    "large": {
+      "x-ratelimit-limit-requests": "1000",
+      "x-ratelimit-limit-tokens": "8000",
+      "x-ratelimit-remaining-requests": "997",
+      "x-ratelimit-remaining-tokens": "5843",
+      "x-ratelimit-reset-requests": "4m19.2s",
+      "x-ratelimit-reset-tokens": "16.177s"
+    }
+  }
+}

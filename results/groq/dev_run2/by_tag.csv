@@ -1,0 +1,16 @@
+system,tag,n,task_success
+always_large,ambiguous,4,1.0
+always_large,easy,18,0.8333333333333334
+always_large,high_risk,8,0.875
+always_large,long_thread,6,0.8333333333333334
+always_large,noisy,6,0.6666666666666666
+always_small,ambiguous,4,1.0
+always_small,easy,18,0.7777777777777778
+always_small,high_risk,8,0.875
+always_small,long_thread,6,0.8333333333333334
+always_small,noisy,6,0.8333333333333334
+smartroute,ambiguous,4,1.0
+smartroute,easy,18,0.7777777777777778
+smartroute,high_risk,8,0.875
+smartroute,long_thread,6,0.8333333333333334
+smartroute,noisy,6,0.8333333333333334

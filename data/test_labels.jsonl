@@ -1,0 +1,80 @@
+{"id": "t001", "intent": "billing_question", "urgency": "low", "fields": {"reference_id": "INV-2026-0918734", "amount": "289.50"}, "tags": ["easy"]}
+{"id": "t002", "intent": "payment_failed", "urgency": "normal", "fields": {"reference_id": "5501234567", "amount": "145"}, "tags": ["easy"]}
+{"id": "t003", "intent": "account_access", "urgency": "normal", "fields": {"reference_id": "WAL-778812", "amount": null}, "tags": ["easy"]}
+{"id": "t004", "intent": "general_inquiry", "urgency": "low", "fields": {"reference_id": null, "amount": null}, "tags": ["easy"]}
+{"id": "t005", "intent": "delivery_issue", "urgency": "normal", "fields": {"reference_id": "ORD-55120934", "amount": null}, "tags": ["easy"]}
+{"id": "t006", "intent": "payment_failed", "urgency": "high", "fields": {"reference_id": "TXN88213409", "amount": "230"}, "tags": ["noisy"]}
+{"id": "t007", "intent": "refund_request", "urgency": "normal", "fields": {"reference_id": "7712045", "amount": "99"}, "tags": ["noisy"]}
+{"id": "t008", "intent": "service_outage", "urgency": "high", "fields": {"reference_id": null, "amount": null}, "tags": ["noisy"]}
+{"id": "t009", "intent": "billing_question", "urgency": "low", "fields": {"reference_id": null, "amount": "12"}, "tags": ["noisy"]}
+{"id": "t010", "intent": "refund_request", "urgency": "high", "fields": {"reference_id": "TXN-6630918", "amount": "312.00"}, "tags": ["long_thread"]}
+{"id": "t011", "intent": "delivery_issue", "urgency": "normal", "fields": {"reference_id": "ORD-90477215", "amount": null}, "tags": ["long_thread"]}
+{"id": "t012", "intent": "account_access", "urgency": "normal", "fields": {"reference_id": "CS-2026-118804", "amount": null}, "tags": ["long_thread"]}
+{"id": "t013", "intent": "payment_failed", "urgency": "normal", "fields": {"reference_id": "5507788231", "amount": "410"}, "tags": ["ambiguous"]}
+{"id": "t014", "intent": "refund_request", "urgency": "normal", "fields": {"reference_id": "ORD-33018842", "amount": "79"}, "tags": ["ambiguous"]}
+{"id": "t015", "intent": "unauthorized_transaction", "urgency": "high", "fields": {"reference_id": "TRF-20261029-55831", "amount": "1,500"}, "tags": ["ambiguous"]}
+{"id": "t016", "intent": "service_outage", "urgency": "high", "fields": {"reference_id": "8100452290", "amount": null}, "tags": ["ambiguous"]}
+{"id": "t017", "intent": "unauthorized_transaction", "urgency": "high", "fields": {"reference_id": "AUTH-4471902", "amount": "750.00"}, "tags": ["high_risk"]}
+{"id": "t018", "intent": "account_access", "urgency": "high", "fields": {"reference_id": "CASE-20261030-4471", "amount": null}, "tags": ["high_risk"]}
+{"id": "t019", "intent": "refund_request", "urgency": "high", "fields": {"reference_id": "TXN-7714025", "amount": "890"}, "tags": ["high_risk"]}
+{"id": "t020", "intent": "payment_failed", "urgency": "high", "fields": {"reference_id": "TOP-3390127", "amount": "500"}, "tags": ["high_risk"]}
+{"id": "t021", "intent": "delivery_issue", "urgency": "normal", "fields": {"reference_id": "ORD-558214", "amount": null}, "tags": ["easy"]}
+{"id": "t022", "intent": "billing_question", "urgency": "low", "fields": {"reference_id": "INV-2026-10-4471", "amount": "55"}, "tags": ["easy"]}
+{"id": "t023", "intent": "payment_failed", "urgency": "normal", "fields": {"reference_id": "REF7730192", "amount": "99"}, "tags": ["easy"]}
+{"id": "t024", "intent": "account_access", "urgency": "normal", "fields": {"reference_id": "1048823561", "amount": null}, "tags": ["easy"]}
+{"id": "t025", "intent": "general_inquiry", "urgency": "low", "fields": {"reference_id": null, "amount": null}, "tags": ["easy"]}
+{"id": "t026", "intent": "payment_failed", "urgency": "high", "fields": {"reference_id": "TX88231", "amount": "35"}, "tags": ["noisy"]}
+{"id": "t027", "intent": "service_outage", "urgency": "high", "fields": {"reference_id": null, "amount": null}, "tags": ["noisy"]}
+{"id": "t028", "intent": "delivery_issue", "urgency": "normal", "fields": {"reference_id": "4471209", "amount": null}, "tags": ["noisy"]}
+{"id": "t029", "intent": "refund_request", "urgency": "normal", "fields": {"reference_id": "RP-66012", "amount": "120"}, "tags": ["noisy"]}
+{"id": "t030", "intent": "refund_request", "urgency": "high", "fields": {"reference_id": "INV-88412", "amount": "249"}, "tags": ["long_thread"]}
+{"id": "t031", "intent": "delivery_issue", "urgency": "normal", "fields": {"reference_id": "ORD-772190", "amount": null}, "tags": ["long_thread"]}
+{"id": "t032", "intent": "service_outage", "urgency": "high", "fields": {"reference_id": "SUB-4410937", "amount": null}, "tags": ["long_thread"]}
+{"id": "t033", "intent": "delivery_issue", "urgency": "normal", "fields": {"reference_id": "ORD-903311", "amount": null}, "tags": ["ambiguous"]}
+{"id": "t034", "intent": "unauthorized_transaction", "urgency": "high", "fields": {"reference_id": "TXN-5502874", "amount": "89"}, "tags": ["ambiguous"]}
+{"id": "t035", "intent": "payment_failed", "urgency": "normal", "fields": {"reference_id": "DCL-301557", "amount": "149"}, "tags": ["ambiguous"]}
+{"id": "t036", "intent": "refund_request", "urgency": "normal", "fields": {"reference_id": "ORD-610455", "amount": "3199"}, "tags": ["ambiguous"]}
+{"id": "t037", "intent": "unauthorized_transaction", "urgency": "high", "fields": {"reference_id": "CASE-2209871", "amount": "1500"}, "tags": ["high_risk"]}
+{"id": "t038", "intent": "unauthorized_transaction", "urgency": "high", "fields": {"reference_id": "ORD-845120", "amount": "2,899"}, "tags": ["high_risk"]}
+{"id": "t039", "intent": "payment_failed", "urgency": "high", "fields": {"reference_id": "TRX-77310482", "amount": "450"}, "tags": ["high_risk"]}
+{"id": "t040", "intent": "account_access", "urgency": "high", "fields": {"reference_id": "1093340718", "amount": null}, "tags": ["high_risk"]}
+{"id": "t041", "intent": "service_outage", "urgency": "high", "fields": {"reference_id": "30418877", "amount": null}, "tags": ["easy"]}
+{"id": "t042", "intent": "account_access", "urgency": "normal", "fields": {"reference_id": "MA-2209415", "amount": null}, "tags": ["easy"]}
+{"id": "t043", "intent": "general_inquiry", "urgency": "low", "fields": {"reference_id": null, "amount": null}, "tags": ["easy"]}
+{"id": "t044", "intent": "billing_question", "urgency": "low", "fields": {"reference_id": "INV-2026-1033817", "amount": "SAR 412.50"}, "tags": ["easy"]}
+{"id": "t045", "intent": "refund_request", "urgency": "normal", "fields": {"reference_id": "ORD-778120", "amount": "SAR 349"}, "tags": ["easy"]}
+{"id": "t046", "intent": "payment_failed", "urgency": "normal", "fields": {"reference_id": null, "amount": "180"}, "tags": ["noisy"]}
+{"id": "t047", "intent": "service_outage", "urgency": "high", "fields": {"reference_id": null, "amount": null}, "tags": ["noisy"]}
+{"id": "t048", "intent": "payment_failed", "urgency": "high", "fields": {"reference_id": "88213490", "amount": "75"}, "tags": ["noisy"]}
+{"id": "t049", "intent": "account_access", "urgency": "normal", "fields": {"reference_id": null, "amount": null}, "tags": ["noisy"]}
+{"id": "t050", "intent": "service_outage", "urgency": "high", "fields": {"reference_id": "CS-2026-118842", "amount": null}, "tags": ["long_thread"]}
+{"id": "t051", "intent": "delivery_issue", "urgency": "normal", "fields": {"reference_id": "ORD-552019", "amount": null}, "tags": ["long_thread"]}
+{"id": "t052", "intent": "refund_request", "urgency": "high", "fields": {"reference_id": "INV-2026-0947702", "amount": "SAR 230"}, "tags": ["long_thread"]}
+{"id": "t053", "intent": "account_access", "urgency": "high", "fields": {"reference_id": "MA-3381206", "amount": null}, "tags": ["ambiguous"]}
+{"id": "t054", "intent": "refund_request", "urgency": "normal", "fields": {"reference_id": "30552901", "amount": "SAR 299"}, "tags": ["ambiguous"]}
+{"id": "t055", "intent": "delivery_issue", "urgency": "normal", "fields": {"reference_id": "ORD-610447", "amount": null}, "tags": ["ambiguous"]}
+{"id": "t056", "intent": "payment_failed", "urgency": "normal", "fields": {"reference_id": "AUTH-603318", "amount": "SAR 150"}, "tags": ["ambiguous"]}
+{"id": "t057", "intent": "unauthorized_transaction", "urgency": "high", "fields": {"reference_id": "WLT-90045127", "amount": "SAR 1,200"}, "tags": ["high_risk"]}
+{"id": "t058", "intent": "unauthorized_transaction", "urgency": "high", "fields": {"reference_id": "FR-2026-07731", "amount": "4,500"}, "tags": ["high_risk"]}
+{"id": "t059", "intent": "account_access", "urgency": "high", "fields": {"reference_id": "30771584", "amount": null}, "tags": ["high_risk"]}
+{"id": "t060", "intent": "general_inquiry", "urgency": "low", "fields": {"reference_id": null, "amount": null}, "tags": []}
+{"id": "t061", "intent": "billing_question", "urgency": "low", "fields": {"reference_id": "INV-55821", "amount": "87.50"}, "tags": ["easy"]}
+{"id": "t062", "intent": "payment_failed", "urgency": "normal", "fields": {"reference_id": "GC-20931", "amount": "200"}, "tags": ["easy"]}
+{"id": "t063", "intent": "account_access", "urgency": "normal", "fields": {"reference_id": "BA-77140", "amount": null}, "tags": ["easy"]}
+{"id": "t064", "intent": "delivery_issue", "urgency": "normal", "fields": {"reference_id": "ORD-448210", "amount": null}, "tags": ["easy"]}
+{"id": "t065", "intent": "general_inquiry", "urgency": "low", "fields": {"reference_id": null, "amount": null}, "tags": ["easy"]}
+{"id": "t066", "intent": "payment_failed", "urgency": "normal", "fields": {"reference_id": "SUB-90311", "amount": null}, "tags": ["noisy"]}
+{"id": "t067", "intent": "refund_request", "urgency": "normal", "fields": {"reference_id": "GC-77812", "amount": "100"}, "tags": ["noisy", "arabic_mixed"]}
+{"id": "t068", "intent": "unauthorized_transaction", "urgency": "high", "fields": {"reference_id": "8830214", "amount": "49.99"}, "tags": ["noisy"]}
+{"id": "t069", "intent": "service_outage", "urgency": "high", "fields": {"reference_id": null, "amount": null}, "tags": ["noisy"]}
+{"id": "t070", "intent": "payment_failed", "urgency": "high", "fields": {"reference_id": "TXN-5520187", "amount": "300"}, "tags": ["long_thread"]}
+{"id": "t071", "intent": "refund_request", "urgency": "high", "fields": {"reference_id": "REF-310077", "amount": "129"}, "tags": ["long_thread", "arabic_mixed"]}
+{"id": "t072", "intent": "account_access", "urgency": "normal", "fields": {"reference_id": "1009457", "amount": null}, "tags": ["long_thread"]}
+{"id": "t073", "intent": "billing_question", "urgency": "low", "fields": {"reference_id": "INV-60214", "amount": "179"}, "tags": ["ambiguous"]}
+{"id": "t074", "intent": "refund_request", "urgency": "normal", "fields": {"reference_id": "ORD-771025", "amount": "250"}, "tags": ["ambiguous", "arabic_mixed"]}
+{"id": "t075", "intent": "payment_failed", "urgency": "normal", "fields": {"reference_id": "AUTH-662901", "amount": "59.00"}, "tags": ["ambiguous"]}
+{"id": "t076", "intent": "unauthorized_transaction", "urgency": "high", "fields": {"reference_id": "BA-30982", "amount": "1000"}, "tags": ["ambiguous"]}
+{"id": "t077", "intent": "account_access", "urgency": "high", "fields": {"reference_id": "5583021", "amount": null}, "tags": ["high_risk"]}
+{"id": "t078", "intent": "unauthorized_transaction", "urgency": "high", "fields": {"reference_id": "TXN-9047731", "amount": "1500"}, "tags": ["high_risk", "arabic_mixed"]}
+{"id": "t079", "intent": "refund_request", "urgency": "high", "fields": {"reference_id": "INV-88310", "amount": "4800"}, "tags": ["high_risk"]}
+{"id": "t080", "intent": "service_outage", "urgency": "high", "fields": {"reference_id": "MA-20455", "amount": null}, "tags": ["high_risk", "arabic_mixed"]}

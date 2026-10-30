@@ -1,0 +1,6 @@
+{"id": "s001", "intent": "payment_failed", "urgency": "normal", "fields": {"reference_id": "ORD-48213", "amount": "250 SAR"}, "tags": ["easy"]}
+{"id": "s002", "intent": "unauthorized_transaction", "urgency": "high", "fields": {"reference_id": "TXN-99120", "amount": "1,200 SAR"}, "tags": ["high_risk"]}
+{"id": "s003", "intent": "general_inquiry", "urgency": "low", "fields": {"reference_id": null, "amount": null}, "tags": ["noisy"]}
+{"id": "s004", "intent": "refund_request", "urgency": "normal", "fields": {"reference_id": "ORD-77102", "amount": null}, "tags": ["ambiguous"]}
+{"id": "s005", "intent": "payment_failed", "urgency": "high", "fields": {"reference_id": "ORD-55012", "amount": "90 SAR"}, "tags": ["arabic_mixed", "high_risk"]}
+{"id": "s006", "intent": "service_outage", "urgency": "high", "fields": {"reference_id": null, "amount": null}, "tags": ["high_risk"]}

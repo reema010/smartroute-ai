@@ -1,0 +1,4 @@
+system,n,api_errors,format_failure_calls,task_success,success_excl_api_errors,intent_acc,urgency_acc,fields_acc,high_urgency_recall,validated_rate,unverified_rate,needs_review_rate,validated_precision,escalation_rate,avg_calls,avg_tokens,avg_reasoning_tokens,total_cost_usd,cost_per_success_usd,cost_savings_vs_large_pct,median_latency_s,p95_latency_s,cached_call_share
+always_small,40,0,0,0.95,0.95,0.975,0.975,1.0,1.0,0.0,1.0,0.0,,0.0,1,1000.575,21.275,0.0036168749999999994,9.518092105263156e-05,53.60928872385864,0.5156285499997466,1.046338599997398,0.0
+always_large,40,0,0,0.975,0.975,1.0,0.975,1.0,1.0,0.0,1.0,0.0,,0.0,1,1024.025,40.3,0.007796549999999999,0.00019991153846153845,0.0,0.5803113500005566,1.0187377000002016,0.0
+smartroute,40,0,0,0.975,0.975,1.0,0.975,1.0,1.0,0.925,0.0,0.075,0.972972972972973,0.075,1.075,1067.55,26.225,0.004618049999999999,0.00011841153846153845,40.76803201416011,0.5129624499986676,1.5521280999964802,0.7674418604651163

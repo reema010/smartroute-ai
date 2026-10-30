@@ -1,0 +1,6 @@
+{"id": "s001", "messages": ["Hi, my payment failed when I tried to renew. Order ORD-48213, amount 250 SAR. Please help. ahmed@example.com"], "metadata": {"channel": "app"}}
+{"id": "s002", "messages": ["I see an unauthorized transaction of 1,200 SAR on my card, ref TXN-99120. This is fraud, please block it now!"], "metadata": {"channel": "phone"}}
+{"id": "s003", "messages": ["Hello", "Hello", "Is there a way to change my plan? Thanks", "Thanks and regards"], "metadata": {"channel": "web"}}
+{"id": "s004", "messages": ["My login stopped working and also I want a refund for ORD-77102 since the delivery never came. 0555123456"], "metadata": {"channel": "web"}}
+{"id": "s005", "messages": ["payment failed بس انخصم المبلغ 90 SAR, order ORD-55012"], "metadata": {"channel": "app"}}
+{"id": "s006", "messages": ["Internet is completely down in my area since this morning. Account 7781234. Outage urgent!"], "metadata": {"channel": "phone"}}

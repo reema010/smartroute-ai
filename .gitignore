@@ -1,0 +1,6 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+results/mock/
+cache/mock_calls.jsonl
